@@ -1,0 +1,6 @@
+{
+	"name": "hot-reloader",
+	"tree": {
+		"$path": "src"
+	}
+}

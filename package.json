@@ -1,0 +1,36 @@
+{
+	"name": "@rbxts/number",
+	"version": "0.0.1",
+	"description": "Polyfills for Number.",
+	"main": "src/init.lua",
+	"scripts": {
+		"fmt": "bunx @biomejs/biome check --write"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mathfox/rbx-number.git"
+	},
+	"keywords": ["number"],
+	"author": {
+		"name": "Ivan Leontev",
+		"url": "https://github.com/mathfox"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mathfox/rbx-number/issues"
+	},
+	"homepage": "https://github.com/mathfox/rbx-number#readme",
+	"types": "src/index.d.ts",
+	"files": ["src"],
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"@rbxts/compiler-types": "^2.3.0-types.1",
+		"@rbxts/types": "*"
+	},
+	"devDependencies": {
+		"roblox-ts": "^2.3.0-dev-8137656",
+		"typescript": "*"
+	}
+}
