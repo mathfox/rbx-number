@@ -1,5 +1,6 @@
 --!strict
 --!native
+--!optimize 2
 
 local MAX_SAFE_INTEGER = require(script.Parent.MAX_SAFE_INTEGER)
 local isInteger = require(script.Parent.isInteger)
